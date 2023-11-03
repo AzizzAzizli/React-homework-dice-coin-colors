@@ -1,13 +1,14 @@
 import React from "react";
-import { CoinComponent } from "../components/coin/Coincomponent";
+import { CoinComp } from "../components/coin/CoinComp";
+
+
 
 
 
 export const Coin = () => {
   return (
     <div>
-      <CoinComponent />
-      <CoinComponent/>
+    <CoinComp/>
     </div>
   );
 };
