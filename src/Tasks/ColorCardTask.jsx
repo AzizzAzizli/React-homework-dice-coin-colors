@@ -1,6 +1,6 @@
 import React from "react";
 import { ColorsCard } from "../components/colorsCard/ColorsCard";
-import "bootstrap";
+import "bootstrap/dist/css/bootstrap.css";
 export const ColorCardTask = () => {
   function renderFunc(num) {
     const cards = [];

@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "bootstrap";
+import "bootstrap/dist/css/bootstrap.css";
 import "./Coin.css";
 export const CoinComponent = () => {
   let arr = [
