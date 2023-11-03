@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "bootstrap/dist/css/bootstrap.css";
+import "bootstrap/dist/css/bootstrap.min.css";
 import "./Dice.css";
 import dice1 from "../../images/inverted-dice-1.png";
 import dice2 from "../../images/inverted-dice-2.png";
@@ -9,7 +9,7 @@ import dice5 from "../../images/inverted-dice-5.png";
 import dice6 from "../../images/inverted-dice-6.png";
 
 export const DiceComponent = () => {
-  // const dice1="../../images/inverted-dice-1.png"
+ 
 
   let dices = {
     item0: dice1,
