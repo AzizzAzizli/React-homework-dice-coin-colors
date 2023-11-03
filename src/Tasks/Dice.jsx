@@ -6,7 +6,6 @@ export const Dice = () => {
   return (
     <div>
         <DiceComponent/>
-      
     </div>
   )
 }

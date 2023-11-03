@@ -1,5 +1,4 @@
 import React from "react";
-import "bootstrap/dist/css/bootstrap.css";
 import { ColorsCard } from "../components/colorsCard/ColorsCard";
 export const ColorCardTask = () => {
   function renderFunc(num) {
@@ -10,5 +9,7 @@ export const ColorCardTask = () => {
     return cards;
   }
 
-  return <div className="d-flex flex-wrap">{renderFunc(32)}</div>;
+  return (
+    <div style={{ display: "flex", flexWrap: "wrap" }}>{renderFunc(32)}</div>
+  );
 };
